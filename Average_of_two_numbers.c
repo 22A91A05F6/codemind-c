@@ -7,4 +7,3 @@ int main()
     c=(a+b)/2.0;
     printf("Average of %d and %d is: %0.2f",a,b,c);
 }
-    
