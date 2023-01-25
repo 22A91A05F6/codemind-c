@@ -6,6 +6,6 @@ int main()
     for(i=1;i<=n;i++)
     {
         s=3*i;
-    printf("%d ",s);
+        printf("%d ",s);
     }
 }
