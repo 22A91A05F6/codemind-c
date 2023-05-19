@@ -20,7 +20,7 @@ int main()
             {
                 q=q/3;
             }
-            else 
+            else
             {
                 c++;
                 break;
