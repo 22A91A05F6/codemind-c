@@ -1,9 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int n,a[10][10],r,c,s=0,i,j;
+    int r,c,i,j,s=0;
     scanf("%d",&r);
     scanf("%d",&c);
+    int a[r][c];
     for(i=0;i<r;i++)
     {
         for(j=0;j<c;j++)
@@ -19,5 +20,4 @@ int main()
         }
     }
     printf("%d",s);
-    
 }
