@@ -2,17 +2,16 @@
 #include<math.h>
 int main()
 {
-    int i,n,x,c=0;
+    int i,n,c=0;
     scanf("%d",&n);
     int a[n];
     for(i=0;i<n;i++)
     {
-    scanf("%d",&a[i]);
+        scanf("%d",&a[i]);
     }
     for(i=0;i<n;i++)
     {
-        x=pow(2,n-i-1)*a[i];
-        c=c+x;
+        c=c+a[i]*pow(2,(n-i-1));
     }
     printf("%d",c);
 }
